@@ -1,6 +1,7 @@
 import React from "react";
 import LandingCard from "../landingCard/LandingCard";
 import Fade from "react-reveal/Fade";
+import { Container } from 'reactstrap';
 
 import "./aromatizacion.scss";
 
@@ -26,7 +27,8 @@ const Aromatizacion = () => {
     },
   ];
   return (
-    <Fade>
+    <Fade>    
+      <Container>
       <div className="aromatizacion section">
         <h2 className="title">Aromatización</h2>
         <div className="cards__container">
@@ -40,6 +42,7 @@ const Aromatizacion = () => {
           ))}
         </div>
       </div>
+      </Container>
     </Fade>
   );
 };

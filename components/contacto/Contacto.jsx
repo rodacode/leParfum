@@ -59,7 +59,8 @@ class Contacto extends Component {
                                 padding: "0px",
                                 paddingBottom: "14px",
                                 WebkitAppearance: "none",
-                                MozAppearance: "none"
+                                MozAppearance: "none",
+                                backgroundColor: "#f6f6f6"
                             }} /> 
 
                     </div>

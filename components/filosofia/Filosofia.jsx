@@ -6,7 +6,7 @@ const Filosofia = () => {
   return (
     <Fade>
       <section id="filosofia">
-        <div className="filosofia__container">
+        <div className="filosofia__container container">
           <div className="title">
             <h2>Filosofia</h2>
           </div>

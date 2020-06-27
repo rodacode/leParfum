@@ -26,7 +26,7 @@ const Aromatizacion0 = () => {
   return (
     <Fade>
       <div className="aromatizacion section">
-        <h2 className="title">Aromatización0</h2>
+        <h2 className="title">AromatizaciónØ</h2>
         <div className="cards__container">
           {items.map((item) => (
             <LandingCard

@@ -48,8 +48,7 @@ const Home = () => (
     </Head>
 
     <main>
-    <Container>
-    <div className="container">
+    <Container fluid={true}>
         <Header />
         <Filosofia />
         <Aromatizacion />
@@ -60,7 +59,6 @@ const Home = () => (
         <Aromaterapia />
         <Contacto />
         <Footer />
-      </div>
       </Container>
     </main>
   </div>

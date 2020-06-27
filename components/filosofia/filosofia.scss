@@ -1,11 +1,12 @@
 .filosofia__container {
-    width:100%;
+    width:80%;
     color: #000;
     display: flex;
     margin:0 auto;
     padding: 10px;
     .title {
         width: 40%;
+        padding-bottom: 40px;
         h2{
             margin:auto;
         }
@@ -23,12 +24,13 @@
 
 @media (min-width:480px) {
     .filosofia__container {
-        width:80%;
+        width:100%;
         color: #000;
         display: flex;
         margin:0 auto 60px;
         padding: 40px;
         .title {
+            margin-top: -15px;
             h2{
                 margin:auto;
             }
