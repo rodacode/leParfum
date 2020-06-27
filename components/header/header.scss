@@ -1,0 +1,107 @@
+.main-container {
+  min-height: 100vh;
+  max-width: 100%;
+  background: url("/assets/img/homebg.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 80px;
+}
+.header-container {
+  color: #fff;
+}
+.header-container__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container{
+  position: absolute;
+  left: 60px;
+  top: 60px;
+}
+.creadores {
+  font-family: "Bilbo Swash Caps", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  margin: 0 0 0 40px;
+}
+.header-container__text{
+  padding:10px;
+  text-align: center;
+}
+.header__quote{
+  font-size: 32px;
+}
+.header-container__contact {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 26px;
+
+}
+.tels {
+  min-width: 215px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.tel {
+  font-size: 12px;
+  margin: 0 15px;
+}
+.tel:before {
+  font-family: FontAwesome;
+  content: "\f095";
+  padding: 5px;
+}
+.whatsapp {
+  margin-left: 18px;
+  font-size: 12px;
+}
+.whatsapp:before {
+  font-family: FontAwesome;
+  content: "\f232";
+  padding: 0 2px;
+}
+.social{
+  padding: 5px;
+  min-width: 185px;
+}
+.social-icons {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin: 0 2px;
+    color:#43A047;
+  }
+}
+
+@media (min-width: 480px) {
+  .tels {
+    flex-direction: row;
+  }
+  .tel {
+    font-size: 24px;
+    margin: 0 5px;
+  }
+  .whatsapp {
+    margin-left: 0;
+    font-size: 24px;
+  }
+  .social-icons {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      color:#43A047;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.filosofia__container {
+    width:100%;
+    color: #000;
+    display: flex;
+    margin:0 auto;
+    padding: 10px;
+    .title {
+        width: 40%;
+        h2{
+            margin:auto;
+        }
+    }
+    .quotes-container {
+        width: 60%;
+        margin-top:-50px;
+        .quotes {
+            border-left: 2px solid #ddd;
+            padding-left: 20px;
+            text-align:left;
+        }
+    }
+}
+
+@media (min-width:480px) {
+    .filosofia__container {
+        width:80%;
+        color: #000;
+        display: flex;
+        margin:0 auto 60px;
+        padding: 40px;
+        .title {
+            h2{
+                margin:auto;
+            }
+        }
+    }
+}

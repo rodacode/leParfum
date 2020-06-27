@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "leparfum",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
     "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "node-sass": "^4.14.1",
+    "nodemailer": "^6.4.10",
+    "react": "^16.13.1",
+    "react-autosize-textarea": "^7.0.0",
+    "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
+    "reactstrap": "^8.5.1"
   }
 }

@@ -1,0 +1,17 @@
+.quotes__container{
+    background-image:url('/assets/img/parallax.jpg');
+    color:#fff;
+    min-height: 300px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .quote{
+        padding:20px;
+        width:80%;
+        margin:20px auto;
+    }
+    .quote__h3{
+        margin:40px auto;
+    }
+}
