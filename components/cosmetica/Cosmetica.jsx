@@ -26,19 +26,19 @@ const Cosmetica = () => {
   ];
   return (
     <Fade>
-      <div className="aromatizacion section">
-        <h2 className="title">Cosmetica</h2>
-        <div className="cards__container">
-          {items.map((item) => (
-            <LandingCard
-              key={item.title}
-              title={item.title}
-              content={item.text}
-              imgUrl={item.imgUrl}
-            />
-          ))}
+        <div className="aromatizacion section">
+          <h2 className="title">Cosmetica</h2>
+          <div className="cards__container">
+            {items.map((item) => (
+              <LandingCard
+                key={item.title}
+                title={item.title}
+                content={item.text}
+                imgUrl={item.imgUrl}
+              />
+            ))}
+          </div>
         </div>
-      </div>
     </Fade>
   );
 };

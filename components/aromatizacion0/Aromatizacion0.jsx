@@ -2,6 +2,7 @@ import React from "react";
 import LandingCard from "../landingCard/LandingCard";
 import Fade from "react-reveal/Fade";
 import "./aromatizacion0.scss";
+import { Container } from 'reactstrap';
 
 const Aromatizacion0 = () => {
   const items = [
@@ -25,19 +26,21 @@ const Aromatizacion0 = () => {
   ];
   return (
     <Fade>
-      <div className="aromatizacion section">
-        <h2 className="title">AromatizaciónØ</h2>
-        <div className="cards__container">
-          {items.map((item) => (
-            <LandingCard
-              key={item.title}
-              title={item.title}
-              content={item.text}
-              imgUrl={item.imgUrl}
-            />
-          ))}
+      <Container>
+        <div className="aromatizacion section">
+          <h2 className="title">AromatizaciónØ</h2>
+          <div className="cards__container">
+            {items.map((item) => (
+              <LandingCard
+                key={item.title}
+                title={item.title}
+                content={item.text}
+                imgUrl={item.imgUrl}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Container>
     </Fade>
   );
 };
